@@ -6,7 +6,8 @@ import * as PetsStore from '../store/Pets';
 import Loading from './Loading';
 
 class Pets extends Component {
-    componentDidMount() {
+    componentDidMount() { 
+        
         this.props.init();
     }
 
